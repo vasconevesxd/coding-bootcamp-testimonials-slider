@@ -31,30 +31,34 @@
             <h4>UX Engineer</h4>
           </div>
         </div>
-        <div class="testimonial__content" style="display: none">
-          <h1>
-            “ If you want to lay the best foundation possible I’d recommend
-            taking this course. The depth the instructors go into is incredible.
-            I now feel so confident about starting up as a professional
-            developer. ”
-          </h1>
-          <h3>John Tarkpor Junior Front-end Developer</h3>
+        <div class="testimonial__content">
+          <div class="testimonial__text">
+            <h1>
+              “ If you want to lay the best foundation possible I’d recommend
+              taking this course. The depth the instructors go into is
+              incredible. I now feel so confident about starting up as a
+              professional developer. ”
+            </h1>
+          </div>
+          <div class="testimonial__info">
+            <h3>John Tarkpor</h3>
+            <h4>Junior Front-end Developer</h4>
+          </div>
         </div>
         <div class="testimonial__image">
-          <img src="./images/image-tanya.jpg" alt="image tanya" />
-          <img
-            src="./images/image-john.jpg"
-            alt="image tanya"
-            style="display: none"
-          />
+          <img src="./images/image-tanya.jpg" alt="image tanya" class="img" />
+          <img src="./images/image-john.jpg" alt="image tanya" class="img"/>
           <div class="slider">
-          <button>
-            <img src="./images/icon-prev.svg" alt="icon prev" />
-            <img src="./images/icon-next.svg" alt="icon next" />
-          </button>
-        </div>
+            <button class="btn-prev" onclick="previewButton()">
+              <img src="./images/icon-prev.svg" alt="icon prev" />
+            </button>
+            <button class="btn-next" onclick="nextButton()">
+              <img src="./images/icon-next.svg" alt="icon next" />
+            </button>
+          </div>
         </div>
       </div>
     </div>
+    <script src="./js/script.js"></script>
   </body>
 </html>
